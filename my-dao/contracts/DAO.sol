@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.0; //original 0.8.27
+pragma solidity  ^0.8.0; //original0.8.27
 
 contract DAO {
     struct Proposal {
