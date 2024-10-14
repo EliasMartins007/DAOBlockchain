@@ -17,5 +17,5 @@ npx hardhat ignition deploy ./ignition/modules/Lock.js
 - iniciar a blockchain local:
   "npx hardhat node"
 
-- em outro terminal acessando a pasta da aplicação "pois irei rodar o script de deploy" e ublicar na blockchain local posso utilizar parametro para publicar externamente tambem.
+- em outro terminal acessando a pasta da aplicação "pois irei rodar o script de deploy" e publicar na blockchain local posso utilizar parametro para publicar externamente tambem.
   "npx hardhat run scripts/deploy.js --network localhost"
