@@ -11,3 +11,11 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+# comandos para testar a blockchain local
+
+- iniciar a blockchain local:
+  "npx hardhat node"
+
+- em outro terminal acessando a pasta da aplicação "pois irei rodar o script de deploy" e ublicar na blockchain local posso utilizar parametro para publicar externamente tambem.
+  "npx hardhat run scripts/deploy.js --network localhost"
